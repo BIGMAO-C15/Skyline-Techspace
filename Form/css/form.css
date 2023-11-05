@@ -1,0 +1,167 @@
+body{
+    background-color: silver;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.container{
+    text-align: center;
+    background-image: url(../img/img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-transform: capitalize;
+    width: 80%;
+    margin: 0px auto;
+    
+}  
+ input[type=text]{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    /* color: white; */
+    text-indent: 10px;
+
+ }
+ input[type=email]{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    /* color: white; */
+    text-indent: 10px;
+
+ }
+ input[type=number]{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    /* color: white; */ 
+    text-indent: 10px;
+
+
+ }
+ input[type=password]{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    /* color: white; */
+    text-indent: 10px;
+
+ }
+ select[name=state]{
+    width: 60%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 7px;
+    background-color: transparent;
+ }
+ 
+
+ select[name=qualification]{
+    width: 60%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 7px;
+    background-color: transparent;
+ }
+ input[type=date]{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid silver;
+    background-color: transparent;
+    /* color: white; */
+    
+ }
+
+ input[type=radio]{
+    margin-left: 10px;
+    margin-right: 20px;
+ }
+
+ input[type=file]{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid silver;
+    /* color: white; */
+ }
+ textarea{
+    box-shadow: 2px 2px 5px 2px;
+    border-radius: 10px;
+ }
+
+ label{
+    font-size: 20px;
+ }
+ .container p{
+    font-size: 25px;
+ }
+
+ input[type=button]{
+    padding: 10px 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: hwb(202 35% 22%);
+    font-weight: bold;
+    font-size: 15px;
+
+ }
+
+ input[type=reset]{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: hwb(202 35% 22%);
+    font-size: 15px;
+    font-weight: bold;
+
+ }
+
+ 
+ /* Our Mobile Responsiveness */
+
+ @media (min-width:400px) and (max-width:990px) {
+   .container{
+      width: 100%;
+      padding-bottom: 25px;
+   }
+   textarea{
+      width: 80%;
+   }
+   input[type=radio]{
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+  
+   
+  
+
+   
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@800&display=swap');
+*{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    display: flex;
+    background-color: #2563eb;
+    justify-content:space-around;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    height: 100px;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+    /* height: 200px; */
+}
+#menu-bar{
+    display: none;
+}
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    padding: 0 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#check{
+    display: none;
+}
+.new{
+    background-color: purple;
+    color: white;
+    padding: 0 3px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.ad {
+    color: white;
+    /* font-weight: bold; */
+    font-size: 16px;
+    margin: 0px 7px;
+}
+.login{
+    border: 2px solid white;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.login:hover{
+    background-color: white;
+    color: black;
+}
+.start{
+    background-color: rgb(7, 131, 255);
+    padding: 5px;
+}
+.section{
+    background-color: rgb(17, 16, 16);
+    padding: 40px;
+    color: white;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+.top{
+    /* text-align: center; */
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.top h1{
+    /* font-size: 70px; */
+    text-align: center;
+}
+.top p{
+    text-align: center;
+}
+.botn{
+    background-color: #2563eb;
+    padding: 25px;
+    font-size: 20px;
+    width: 250px;
+    margin:20px auto;
+    color: black;
+}
+.botn a{
+    color: black;
+    font-weight: bold;
+    /* text-align: center; */
+    padding-left: 30px;
+    font-size: 20px;
+}
+.fa-arrow-right:hover{
+    transform: scale(1.2);
+}
+.fa-arrow-right{
+    padding: 0 8px;
+    font-weight: lighter;
+}
+.big{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.big img{
+    width: 100%;
+}
+.title h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.fa-regular{
+    font-size: 40px;
+}
+.fa-solids{
+    font-size: 40px;
+}
+.serve{
+    display: flex;
+    font-size: 20px;
+    margin: 0 30px;
+    justify-content: space-between;
+}
+.services{
+    padding: 20px;
+}
+/* my products section begins here */
+/* the product div class is a nested tag, containing other divs which were floated using another div named prod.  */
+.product{
+    background-color:rgb(251, 249, 247);
+    max-width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-top: -20px;
+    padding: 30px;
+}
+.icons{
+    width: 50px;
+    height:50px;
+}
+.product h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.prod{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-between;
+}
+.prod1{
+    padding: 30px 30px;
+    font-size: 16px;
+    max-width: 20%;
+}
+#pe{
+    font-weight: bolder;
+}
+.prod1 a{
+    text-decoration: underline;
+    color: black;
+    font-weight: bolder;
+}
+.nextprod{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-between;
+}
+.nextprod1{
+    padding: 30px 30px;
+    font-size: 16px;
+    max-width: 20%;
+}
+.nextprod1 a{
+    text-decoration: underline;
+    color: black;
+    font-weight: bolder;
+}
+.use-container{
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.use-container h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.use-content{
+    max-width: 100%;
+    margin: 30px auto;
+    display: flex;
+}
+.boxes{
+    max-width: 48%;
+    margin: 60px auto;
+}
+.box{
+    max-width: 100%;
+}
+.bos1{
+  background-color:rgb(38, 37, 37);  
+  margin-top: -3px;
+  padding: 40px 30px 50px 30px;
+  /* max-height: 40%; */
+}
+.bos2{
+    background-color:rgb(38, 37, 37);  
+  margin-top: -3px;
+  padding: 40px 30px 50px 30px;
+}
+.bos1 a{
+    background-color:#2563eb;
+    color: black;
+    padding: 15px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bos1 p{
+    margin-bottom: 60px;
+}
+.bos2 a{
+    background-color:#2563eb;
+    color: black;
+    padding: 15px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bos2 p{
+    margin-bottom: 40px;
+}
+.cloudcontainer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cloudcontent{
+    display: flex;
+    margin: 20px 30px;
+    /* justify-content: space-between; */
+    /* padding: 20px; */
+}
+.cloudbx{
+    padding: 0px 30px;
+    max-width: 20%;
+}
+#pi{
+    font-weight: bolder;
+    padding: 20px 0;
+}
+/* another section begins here */
+.parent{
+    background-color: rgb(245, 245, 245);
+    margin-top: -20px;
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    max-width: 100%;
+}
+.parent h1{
+    text-align: center;
+}
+.whatelse{
+    max-width: 100%;
+    display: flex;
+    background-color: white;
+    height: 900px;
+}
+/* .parent p{
+    text-align: center;
+} */
+.list{
+    background-color: white;
+    max-width: 50%;
+    /* height: 80px; */
+}
+
+.menus{
+    /* background-color: white; */
+    max-width: 98%;
+    /* margin: 0 auto; */
+    height: 100px;
+    margin: 0px 50px 0px 30px;
+    border-top: black solid;
+    border-width: thin;  
+}
+.menus i{
+    float: right;
+    line-height: 100px;
+}
+.men{
+    height: 150px;
+    max-width: 90%;
+    /* margin: 0 auto; */
+    /* height: 70px; */
+    margin: 20px 100px 10px 30px;
+}
+.men i{
+    margin-left: 107%;
+}
+.men a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 2px;
+}
+.len{
+    margin-bottom: 10px;
+}
+#mens{
+    margin-left: 2%;
+    padding-left: 3px;
+}
+
+.menus a{
+    color: black;
+    font-weight: bolder;
+    line-height: 100px;
+    
+}
+.menus:hover{
+    background-color: rgb(245, 245, 245);
+}
+.result{
+    max-width: 50%;
+    background-color: rgb(37, 189, 224);
+}
+.result img{
+    max-width: 80%;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+/* here ends this section */
+
+/* get more section begins here */
+
+.getmorecontainer{
+    font-family: 'Familjen Grotesk', sans-serif;
+    max-width: 100%;
+    margin: 0px auto;
+    
+}
+#aa{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.ab{
+    font-family: 'Familjen Grotesk', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.ab a{
+    color: black;
+}
+/* this is the container used for flexing the first sets of boxes */
+.flexing-container1{
+    max-width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+.getbox{
+    width: 23%;
+    margin: 10px 20px;
+    padding: 30px 20px;
+}
+.getbox img{
+    width: 50px;
+}
+.getbox p{
+    text-align: left;
+}
+.flexing-container2{
+    max-width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+.getbx{
+    width: 23%;
+    margin: 10px 20px;
+    padding: 30px 20px;
+}
+.getbx img{
+    width: 50px;
+}
+.getbx p{
+    text-align: left;
+}
+.contain{
+    background-color: #161313;
+    max-width: 100%;
+    margin-top: -40px;
+}
+.first{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.first a{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.first h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+}
+.incontain{
+    background-color: #242121;
+    margin-top: 60px;
+    padding:70px 100px;
+    max-height: 60%;
+    display: flex;
+}
+.imager{
+    max-width: 40%;
+    margin-right: 70px;
+}
+.imager img{
+    width: 100%;
+}
+.imagers{
+    width: 50%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 40px;
+}
+.imagers h2{
+    font-family: 'Oswald', sans-serif;
+}
+.imagers a{
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.ii:hover{
+    background-color: gray;
+    padding: 5px;
+    /* margin-left: 5px; */
+}
+.ii{
+    margin-left: 5px;
+}
+.next{
+    color: white;
+    font-size: 60px;
+    max-width: 5%;
+    /* margin-right: 10px;
+    margin-left: 40px; */
+    /* line-height: 300px; */
+    padding: 70px 50px;
+    /* max-height: 80%; */
+    
+}
+.next i{
+    opacity: calc(0.009);
+}
+.next:hover{
+    color: white;
+    opacity: 100%;
+}
+.forall{
+    max-width: 100%;
+    display: flex;
+}
+.clad{
+    max-width: 70%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.clad h1{
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    font-size: 40px;
+}
+.div{
+    max-width: 30%;
+   margin: 70px auto;
+}
+.div a{
+    background-color: #2563eb;
+    padding: 30px 40px;
+    color: black;
+    font-weight: bolder;
+    /* margin: 70px auto; */
+}
+.david{
+    background-color: black;
+    color: white;
+    max-width: 100%;
+}
+.esther{
+    max-width: 95%;
+    padding: 70px 50px;
+    margin: 0px auto;
+    display: flex;
+}
+.uel a{
+    color: white;
+    font-size: 16px;
+}
+.uel{
+    margin: 10px 10px;
+    width: 23%;
+}
+.social-links{
+    margin: 10px 30px;
+}
+.social-links a{
+    margin: 0px 20px;
+    color: white;
+}
+.social-links a:hover{
+    background-color: #2563eb;
+    color: white;
+    padding: 3px;
+}
+.language{
+    margin: 40px 30px;
+    padding-bottom: 40px;
+}
+.language:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.rule{
+    width: 12%;
+    margin: 40px 30px;
+    color: white;
+}
+.uel p a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+
+
+
+
+
+/* this section is for tablet mobile responsiveness */
+
+@media screen and (max-width:1035px) {
+    .navbar ul li a{
+        color: white;
+        padding: 0 3px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .logo img{
+        width: 120px;
+        margin-top: 30px;
+        /* height: 200px; */
+    }
+    .login{
+        border: 2px solid white;
+        padding: 2px 3px;
+        border-radius: 5px;
+        margin-left: -50px;
+    }
+    .navbar2{
+        margin-left: -40px;
+    }
+    .navbar ul{
+        margin-left: -50px;
+    }
+    .ad {
+        color: white;
+        /* font-weight: bold; */
+        font-size: 13px;
+        margin: 0px 3px;
+    }
+    .imager{
+        max-width: 30%;
+        margin-right: 30px;
+    }
+    .imagers{
+        width: 50%;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        margin-right: 15px;
+    }
+    .imagers h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+    }
+    .incontain{
+        background-color: #242121;
+        margin-top: 60px;
+        padding:30px 50px;
+        max-height: 40%;
+        display: flex;
+    }
+    .next{
+        color: white;
+        font-size: 20px;
+        max-width: 5%;
+        /* margin-right: 10px;
+        margin-left: 40px; */
+        /* line-height: 300px; */
+        padding: 40px 20px;
+        /* max-height: 80%; */
+        
+    }
+    .next i{
+        opacity: calc(0.5);
+    }
+    .next:hover{
+        color: white;
+        opacity: 100%;
+    }
+    .clad h1{
+        color: white;
+        font-family: 'Trispace', sans-serif;
+        font-size: 20px;
+    }
+    .div{
+        max-width: 30%;
+       margin: 50px auto;
+    }
+    .div a{
+        background-color: #2563eb;
+        padding: 20px 30px;
+        color: black;
+        font-weight: bolder;
+        /* margin: 70px auto; */
+    }
+    .whatelse{
+        max-width: 100%;
+        display: flex;
+        background-color: white;
+        height: 180vh;
+    }
+    /* .parent p{
+        text-align: center;
+    } */
+    .list{
+        background-color: white;
+        max-width: 50%;
+        /* height: 80px; */
+    }
+    
+    .menus{
+        /* background-color: white; */
+        max-width: 98%;
+        /* margin: 0 auto; */
+        height: 100px;
+        margin: 0px 30px 0px 10px;
+        border-top: black solid;
+        border-width: thin;  
+    }
+    .menus i{
+        float: right;
+        line-height: 50px;
+    }
+    .men{
+        height: 180px;
+        max-width: 90%;
+        /* margin: 0 auto; */
+        /* height: 70px; */
+        margin: 20px 100px 10px 30px;
+    }
+    .men i{
+        margin-left: 107%;
+    }
+    .men a{
+        color: black;
+        font-weight: bolder;
+        text-decoration: underline;
+        text-align: left;
+        margin-top: 2px;
+    }
+    .len{
+        margin-bottom: 10px;
+        margin-top: -20px;
+
+    }
+    .uel p a:hover{
+        text-decoration: underline;
+        color: yellow;
+    }
+    
+    .menus a{
+        color: black;
+        font-weight: bold;
+        line-height: 5px;
+    }
+}
+
+/* this is the styling for mobile device responsiveness */
+
+@media (min-width:300px) and (max-width:900px){
+    .container{
+        flex-direction: column;
+        position: relative;
+        background-color: rgb(17, 16, 16);
+        height: 100px;
+    }
+    .navbar ul li {
+        display: block;
+        
+    }
+    .logo img{
+        position: absolute;
+        top:-20px;
+        left:35%;
+    }
+    .navbar{
+        /* margin-top: 40%; */
+        position:absolute;
+        top:80%;
+        display: block;
+        width: 100%;
+
+        
+    }
+    ul{
+        width: 80%;
+        border-radius: 8px;
+        background-color: #2563eb;
+        margin: 30px auto;
+        display: none;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+    #menu-bar{
+        
+        display: block; 
+        position: absolute; 
+        left: 20%;
+        top: 0%;
+        color: white;
+        cursor: pointer;
+    }
+    #menu-bar i{
+        font-size:30px;
+    }
+    #check{
+        position: absolute;
+        display: none;
+        left: 90%;
+    }
+
+    /* here I declared that once the check box is checked, the ul will be displayed as block */
+    #check:checked ~ ul{
+        display: block;
+    }
+
+    /* .drop{
+        position: relative;
+        display: inline-block;
+    } */
+    /* .drop:hover .navbar{
+        display: block;
+    } */
+
+
+    /* here i added a hovering background color to our navigation menu */
+    ul li a:hover{
+        background-color: rgb(7, 10, 79);
+    }
+    ul a{
+        width: 130px;
+    }
+
+    /* this is the div for registration and login buttons */
+
+    .navbar2{
+        position:absolute;
+        top:80%;
+        left: 40%;
+    }
+    .navbar ul li a{
+        color: white;
+        padding: 3px 40px;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 5px 0px;
+        display: block;
+        text-align: justify;
+    }
+    /* here I removed the styling for the 'new' to have something unique in the mobile */
+    .new{
+        background-color: transparent; 
+        /* color: white; */
+        /* padding: 0 3px; */
+        font-size: 13px; 
+        /* font-weight: bold; */
+        /* border-radius: 4px; */
+    }
+    /* this is the login styling */
+    .login{
+        border: 2px solid white;
+        padding: 5px 25px;
+        border-radius: 5px;
+    }
+    /* this is the register styling */
+    .start{
+        background-color: rgb(7, 131, 255);
+        padding: 5px 25px;
+        margin-left: 18px;
+    }
+    .top{
+        /* text-align: center; */
+        max-width: 100%;
+        margin: 40px auto;
+        /* font-size: 25px; */
+    }
+    .top h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .top p{
+        font-size: 16px;
+    }
+    .big{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .botn{
+        background-color: #2563eb;
+        padding: 15px 10px;
+        font-size: 16px;
+        width: 200px;
+        margin:20px auto;
+        color: black;
+    }
+    .botn a{
+        color: black;
+        font-weight: bold;
+        /* text-align: center; */
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .title h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .serve{
+        /* display: flex; */
+        flex-direction: column;
+        text-align: center;
+        /* font-size: 15px;
+        margin: 0 3%;
+        justify-content: space-between; */
+    }
+    .services{
+        padding: 2%;
+    }
+    .services i{
+        color: yellow;
+    }
+    .icons{
+        width: 30px;
+        height:30px;
+    }
+    .product h1{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .prod{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .prod1{
+        padding: 5% 5%;
+        font-size: 16px;
+        max-width: 90%;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .nextprod{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .nextprod1{
+        padding: 5% 5%;
+        font-size: 16px;
+        max-width: 90%;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .use-container{
+        max-width: 100%;
+        background-color: black;
+        color: white;
+        padding: 40px 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
+    .use-container h1{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+    }
+    .use-content{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .boxes{
+        max-width: 90%;
+        margin: 20px auto;
+    }
+    .box{
+        max-width: 100%;
+        /* height: 50vh; */
+    }
+    .bos1{
+      background-color:rgb(38, 37, 37);  
+      margin-top: -3px;
+      padding: 5px 5px 30px 5px;
+      height: 100%;
+    }
+    .bos2{
+        background-color:rgb(38, 37, 37);  
+      margin-top: -3px;
+      padding: 3px 5px 30px 5px;
+      height: 100%;
+    }
+    .bos1 a{
+        background-color:#2563eb;
+        color: black;
+        padding: 15px 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 25px 20px;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .bos1 p{
+        margin-bottom: 60px;
+    }
+    .bos2 a{
+        background-color:#2563eb;
+        color: black;
+        padding: 15px 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 25px 20px;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .bos2 p{
+        margin-bottom: 40px;
+    }
+    .cloudcontent{
+       flex-direction: column;
+        margin: 10px auto;
+        text-align: center;
+        color: yellow;
+        /* justify-content: space-between; */
+        /* padding: 20px; */
+    }
+    .cloudbx{
+        padding: 20px 10px;
+        max-width: 90%;
+        list-style: none;
+    }
+    #pi{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+    .cloudcontainer h1{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .cloudbx img{
+        width: 60px;
+    }
+    /* this is another section of the mobile responsiveness */
+
+    .whatelse{
+        max-width: 100%;
+        flex-direction: column;
+        background-color: white;
+        /* height: 900px; */
+    }
+    .list{
+        background-color: white;
+        max-width: 100%;
+        /* height: 80px; */
+    }
+    .menus{
+        /* background-color: white; */
+        max-width: 99%;
+        /* margin: 0 auto; */
+        height: 50px;
+        margin: 10px 30px 0px 10px;
+        border-top: black solid;
+        border-width: thin;  
+        font-size: 16px;
+    }
+    .menus i{
+        float: right;
+        line-height: 10px;
+        margin-left: 98%;
+    }
+    .men{
+        height: 230px;
+        max-width: 100%;
+        /* margin: 0 auto; */
+        /* height: 70px; */
+        /* margin: 20px 100px 10px 30px; */
+        font-size: 16px;
+    }
+    .men i{
+        margin-right: 0%;
+        padding-left: 25px;
+       }
+    .men a{
+        color: black;
+        font-weight: normal;
+        text-decoration: underline;
+        text-align: justify;
+        margin-top: 2px;
+    }
+    .men p{
+        width: 100%;
+    }
+    /* .len{
+        margin-bottom: 10px;
+        margin-top: -20px;
+
+    } */
+    
+    .menus a{
+        color: black;
+        font-weight: normal;
+        line-height: 5px;
+    }
+    .result{
+        max-width: 100%;
+        background-color: rgb(37, 189, 224);
+        margin: 10px auto;
+    }
+    .result img{
+        max-width: 70%;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .getmorecontainer{
+        font-family: 'Familjen Grotesk', sans-serif;
+        max-width: 100%;
+        margin: 10px auto;
+        
+    }
+    .flexing-container1{
+        max-width: 98%;
+        margin: 40px auto;
+        display: flex;
+    }
+    /* .result{
+        margin-bottom: 20px;
+    } */
+    .getbox{
+        width: 20%;
+        margin: 10px 3px;
+        padding: 30px 5px;
+        font-size: 13px;
+    }
+    .getbox img{
+        width: 30px;
+    }
+    .getbox p{
+        text-align: left;
+    }
+    .flexing-container2{
+        max-width: 95%;
+        margin: 40px auto;
+        display: flex;
+    }
+    .getbx{
+        width: 20%;
+        margin: 10px 3px;
+        padding: 30px 5px;
+        font-size: 13px;
+    }
+    .getbx img{
+        width: 25px;
+    }
+    /* .getmorecontainer{
+        margin-top: 50px;
+    } */
+    #aa{
+        font-size: 15px;
+    }
+    .first h1{
+        font-size: 20px;
+    }
+    .first a{
+        font-size: 13px;
+    }
+    .imager{
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    .imagers{
+        width: 100%;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        margin:10px auto;
+    }
+    .imagers h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+    }
+    .incontain{
+        background-color: #242121;
+        margin-top: 60px;
+        padding:30px 50px;
+        max-height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .next{
+        color: white;
+        font-size: 20px;
+        max-width: 5%;
+        /* margin-right: 10px;
+        margin-left: 40px; */
+        /* line-height: 300px; */
+        padding: 5px 20px;
+        /* max-height: 80%; */
+        margin: 5px auto;
+        
+    }
+    .next i{
+        opacity: calc(0.05);
+    }
+    .clad{
+        max-width: 100%;
+        margin-left: 100px;
+        margin: 20px auto;
+    }
+    .clad h1{
+        color: white;
+        font-family: 'Trispace', sans-serif;
+        font-size: 20px;
+        
+    }
+    .div{
+        max-width: 80%;
+       margin: 20px auto;
+    }
+    .div a{
+        background-color: #2563eb;
+        padding: 10px 20px;
+        color: black;
+        font-weight: bolder;
+        /* margin: 70px auto; */
+    }
+    .forall{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .esther{
+        max-width: 100%;
+        padding: 0px 0px;
+        margin: 0px auto;
+        display: flex;
+    }
+    .uel p a{
+        font-size: 10px;
+    }
+    .uel{
+        margin: 5px 5px;
+        width: 23%;
+    }
+    .uel p a:hover{
+        text-decoration: underline;
+        color: yellow;
+    }
+    .uel h4{
+        font-size: 12px;
+    }
+    .social-links{
+        margin: 10px 10px;
+    }
+    .social-links a{
+        margin: 0px 5px;
+        color: white;
+    }
+    .language{
+        margin: 40px 30px;
+        padding-bottom: 40px;
+        font-size: 10px;
+    }
+    .rule{
+        width: 20%;
+        margin: 20px 10px;
+        color: white;
+    }
+}
