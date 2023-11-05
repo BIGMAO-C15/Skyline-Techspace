@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(229, 222, 222);
+}
+
+.container{
+    background-color: white;  
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+p{
+    text-align: center;
+}
+.facebook{
+    background-color: dodgerblue;
+    margin-right: 20px;
+}
+.twitter{
+    background-color: black;
+    margin-right: 20px;
+}
+
+.google{
+    background-color: red;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.button{
+    margin: 20px;
+    text-align: center;
+}
+.divider{
+    display: flex;
+    text-align: center;
+}
+.divider::before, .divider::after{
+    content: "";
+    background-color: gray;
+    padding: 1px;
+    flex: 1;
+    margin: 25px 5px;
+}
+.divider-hilson{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+input{
+    width: 80%;
+    height: 8vh;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.user{
+    position: relative;
+    top: 41%;
+    right: 80%;
+}
+.email{
+    position: relative;
+    top: 41%;
+    right: 80%;
+}
+
+input[type=submit]{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+input[type=username]{
+
+    /* padding-left: 25%; */
+    text-indent: 30px;
+}
+
+input[type=email]{
+
+    /* padding-left: 25%; */
+    text-indent: 30px;
+}
+
+input[type=password]{
+
+    /* padding-left: 25%; */
+    text-indent: 30px;
+}
+input[type=username]:focus{
+    outline:none ;
+    border: 1px solid dodgerblue;
+}
+
+input[type=email]:focus{
+    outline: none;
+    border: 1px solid dodgerblue;
+}
+
+input[type=password]:focus{
+    outline:none ;
+    border: 1px solid dodgerblue;
+}
+
+/* home styling */
+
+.home{
+    position: absolute;
+    top:5%;
+    left: 30%;
+    color: dodgerblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+#terms{
+
+    width: 3%;
+    height: 2.5vh;
+    
+   
+}
+
+.sign-in{
+    
+    text-align: center;
+    
+    
+}
+
+
+
+/* Our Mobile Reponsiveness */
+@media (min-width:400px) and (max-width:990px) {
+    .container{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    .home{
+        left: 10%;
+    }
+    /* .user{ 
+
+        margin-left: 5px;
+    }*/
+    .button a{
+    
+        padding: 8px 10px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
